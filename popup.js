@@ -15,5 +15,5 @@ document.getElementById('toggle').addEventListener('click', () => {
 
 function updateButtonText() {
     const button = document.getElementById('toggle');
-    button.textContent = xpathScannerEnabled ? "XPath Scanner Toggle On" : "XPath Scanner Toggle Off";
+    button.textContent = xpathScannerEnabled ? "XPath Scanner Switch On" : "XPath Scanner Switch Off";
 }
